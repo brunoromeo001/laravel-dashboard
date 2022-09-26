@@ -19,4 +19,12 @@ Route::get('/', function () {
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+Route::get('/users', function () {
+    return view('users');
+});
+
+Route::get('/groups', function () {
+  return view('groups');
+});
+
 Auth::routes();
