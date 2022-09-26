@@ -304,85 +304,99 @@ return [
         // Sidebar items:
         [
             'type' => 'sidebar-menu-search',
-            'text' => 'search',
+            'text' => 'Buscar',
         ],
         [
-            'text' => 'blog',
-            'url'  => 'admin/blog',
-            'can'  => 'manage-blog',
+            'text'        => 'Dashboard',
+            'url'         => '#',
+            'icon'        => 'fas fa-tachometer-alt',
         ],
         [
-            'text'        => 'pages',
-            'url'         => 'admin/pages',
-            'icon'        => 'far fa-fw fa-file',
-            'label'       => 4,
-            'label_color' => 'success',
-        ],
-        ['header' => 'account_settings'],
-        [
-            'text' => 'profile',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-user',
+            'text'        => 'Dashboard 2',
+            'url'         => '#',
+            'icon'        => 'fa-solid fa-gauge',
         ],
         [
-            'text' => 'change_password',
-            'url'  => 'admin/settings',
-            'icon' => 'fas fa-fw fa-lock',
+            'text' => 'Usuários',
+            'url'  => '#',
+            'icon' => 'fas fa-users',
         ],
         [
-            'text'    => 'multilevel',
-            'icon'    => 'fas fa-fw fa-share',
+            'text'    => 'Grupos / Permissões',
+            'icon'    => 'fas fa-columns',
             'submenu' => [
                 [
-                    'text' => 'level_one',
+                    'text' => 'Grupos',
                     'url'  => '#',
-                ],
+                ],                
                 [
-                    'text'    => 'level_one',
-                    'url'     => '#',
-                    'submenu' => [
-                        [
-                            'text' => 'level_two',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'level_two',
-                            'url'     => '#',
-                            'submenu' => [
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                                [
-                                    'text' => 'level_three',
-                                    'url'  => '#',
-                                ],
-                            ],
-                        ],
-                    ],
-                ],
-                [
-                    'text' => 'level_one',
+                    'text' => 'Permissões',
                     'url'  => '#',
                 ],
             ],
         ],
-        ['header' => 'labels'],
         [
-            'text'       => 'important',
-            'icon_color' => 'red',
-            'url'        => '#',
+            'text' => 'Basquetes',
+            'url'  => '#',
+            'icon' => 'fas fa-basketball-ball',
         ],
         [
-            'text'       => 'warning',
-            'icon_color' => 'yellow',
-            'url'        => '#',
+            'text' => 'Cachês',
+            'url'  => '#',
+            'icon' => 'fas fa-coins',
         ],
         [
-            'text'       => 'information',
-            'icon_color' => 'cyan',
-            'url'        => '#',
+            'text'    => 'Clientes / Agências',
+            'icon'    => 'fas fa-id-card',
+            'submenu' => [
+                [
+                    'text' => 'Clientes',
+                    'url'  => '#',
+                ],                
+                [
+                    'text' => 'Agências',
+                    'url'  => '#',
+                ],
+            ],
         ],
+        [
+            'text' => 'Praças',
+            'url'  => '#',
+            'icon' => 'fas fa-map-marked-alt',
+        ],
+        [
+            'text' => 'Metas',
+            'url'  => '#',
+            'icon' => 'fas fa-piggy-bank',
+        ],
+        [
+            'text' => 'Apresentadores',
+            'url'  => '#',
+            'icon' => 'fa-solid fa-people-group',
+        ],
+        [
+            'text' => 'Contatos',
+            'url'  => '#',
+            'icon' => 'fa-solid fa-users-line',
+        ],
+        [
+            'text' => 'Naturezas',
+            'url'  => '#',
+            'icon' => 'fas fa-boxes',
+        ],
+        [
+            'text' => 'Orçados',
+            'url'  => '#',
+            'icon' => 'fas fa-table',
+        ],
+        [
+            'text' => 'Relatórios',
+            'url'  => '#',
+            'icon' => 'fas fa-chart-line',
+        ],
+        
+        //['header' => 'labels'],
+      
     ],
 
     /*
